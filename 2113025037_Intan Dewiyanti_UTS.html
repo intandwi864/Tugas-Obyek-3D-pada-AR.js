@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Rumah Besar dan Detail</title>
+  <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
+</head>
+<body>
+  <a-scene inspector="" keyboard-shortcuts="" screenshot="" vr-mode-ui="" device-orientation-permission-ui="">
+
+    <!-- Langit -->
+    <a-sky color="#87CEEB" material="color: #000000" geometry=""></a-sky>
+    
+    <!-- Tanah -->
+    <a-plane position="-4.33947 0.0002 -0.00032" rotation="-90 0 0" width="100" height="100" color="#C0C0C0" material="color: #065c00" geometry="" scale="1 1.17 0.00001"></a-plane>
+
+    <!-- Struktur Rumah -->
+    <a-entity position="">
+
+      <!-- Pondasi -->
+      <a-box position="-6.268 2.125 6.345" width="20" height="1" depth="15" color="#CD853F" material="" geometry="" scale="0.18 1 0.16">
+        <a-text value="Pondasi" align="center" position="34.2872 -1.67 7.46657" color="#FFFFFF" scale="7.27 1.75 4" text="value: Lantai"></a-text>
+      </a-box><a-box position="0 0.54527 0" width="20" height="1" depth="15" color="#CD853F" material="" geometry="">
+        <a-text value="Pondasi" align="center" position="0 1.2 0" color="#FFFFFF" scale="4 4 4" text=""></a-text>
+      </a-box><a-box position="6.26843 2.12455 6.34517" width="20" height="1" depth="15" color="#CD853F" material="" geometry="" scale="0.18 1 0.16">
+        <a-text value="Pondasi" align="center" position="0 1.2 0" color="#FFFFFF" scale="4 4 4" text=""></a-text>
+      </a-box>
+
+      <!-- Lantai Bawah -->
+      <a-box position="0 4.69 0" width="18" height="7" depth="13" color="#B0E0E6" material="color: #2695ba" geometry="" scale="1 1.6 1.06">
+        <a-text value="Lantai Bawah" align="center" position="0 -1.08 0.46268" color="#000000" scale="4 4 4" text=""></a-text>
+      </a-box><a-box position="0 12.24401 0.84132" width="18" height="7" depth="13" color="#B0E0E6" material="color: #e99848" geometry="" scale="0.2 0.07 1.06">
+        <a-text value="Lantai Bawah" align="center" position="0 6.2 0" color="#000000" scale="4 4 4" text=""></a-text>
+      </a-box><a-box position="9.7 -5.27 0" width="18" height="7" depth="13" color="#B0E0E6" material="color: #6e7577" geometry="" scale="1 1.6 1.06">
+        <a-text value="Lantai Bawah" align="center" position="0 6.2 0" color="#000000" scale="4 4 4" text=""></a-text>
+      </a-box><a-box position="12.82 7.71 -0.28" width="18" height="7" depth="13" color="#B0E0E6" material="color: #2695ba" geometry="" scale="0.71 0.08 1.06" rotation="0 0 -10">
+        <a-text value="Lantai Bawah" align="center" position="0 6.2 0" color="#000000" scale="4 4 4" text=""></a-text>
+      </a-box>
+
+      <!-- Lantai Atas -->
+      <a-box position="0 11.5 -1.86626" width="15" height="7" depth="10" color="#B0E0E6" material="color: #2caad3" geometry="" scale="1.14 1.55 1">
+        <a-text value="Lantai Atas" align="center" position="0 1.27 3.73863" color="#000000" scale="4 4 4" text=""></a-text>
+      </a-box><a-box position="5.996 11.5 2.313" width="15" height="7" depth="10" color="#B0E0E6" material="color: #e99848" geometry="" scale="0.23 0.09 0.25">
+        <a-text value="Lantai Atas" align="center" position="0 13.2 0" color="#000000" scale="4 4 4" text=""></a-text>
+      </a-box><a-box position="-5.99587 11.5 2.31331" width="15" height="7" depth="10" color="#B0E0E6" material="color: #e89847" geometry="" scale="0.23 0.09 0.25">
+        <a-text value="Lantai Atas" align="center" position="0 13.2 0" color="#000000" scale="4 4 4" text=""></a-text>
+      </a-box><a-box position="0 10.07995 0.11018" width="15" height="7" depth="10" color="#B0E0E6" material="color: #af6703" geometry="" scale="1.28 0.12 1.46">
+        <a-text value="Lantai Atas" align="center" position="0 13.2 0" color="#000000" scale="4 4 4" text=""></a-text>
+      </a-box><a-box position="-2.059 18.051 4.41" width="15" height="7" depth="10" color="#B0E0E6" material="color: #ae6602" geometry="" scale="0.5 -0.04 0.58" rotation="40 -90 0">
+        <a-text value="Lantai Atas" align="center" position="0 13.2 0" color="#000000" scale="4 4 4" text=""></a-text>
+      </a-box><a-box position="2.05931 18.05141 4.41" width="15" height="7" depth="10" color="#B0E0E6" material="color: #b36906" geometry="" scale="0.5 -0.04 0.58" rotation="40 90 0">
+        <a-text value="Lantai Atas" align="center" position="0 13.2 0" color="#000000" scale="4 4 4" text=""></a-text>
+      </a-box><a-box position="0 18.42 -4.874" width="15" height="7" depth="10" color="#B0E0E6" material="color: #b36a07" geometry="" scale="1.31 -0.04 0.72" rotation="-40 0 0">
+        <a-text value="Lantai Atas" align="center" position="0 13.2 0" color="#000000" scale="4 4 4" text=""></a-text>
+      </a-box><a-box position="0 18.42 1.17374" width="15" height="7" depth="10" color="#B0E0E6" material="color: #854d00" geometry="" scale="1.31 -0.04 0.72" rotation="40 0 0">
+        <a-text value="Lantai Atas" align="center" position="0 13.2 0" color="#000000" scale="4 4 4" text=""></a-text>
+      </a-box><a-box position="0 8.57 2.25374" width="15" height="7" depth="10" color="#B0E0E6" material="color: #32b3b1" geometry="" scale="0.46 2.4 1.04">
+        <a-text value="Lantai Atas" align="center" position="0 13.2 0" color="#000000" scale="4 4 4" text=""></a-text>
+      </a-box>
+
+      <!-- Atap -->
+      <a-cone position="-10.3 9.66 13.94347" radius-bottom="10" radius-top="0" height="10" color="#CD5C5C" material="color: #038312" geometry="" scale="-0.43 0.84 -0.42">
+        <a-text value="Atap" align="center" position="-39.40611 10.99287 28.91521" color="#FFFFFF" scale="4 4 4" text="" rotation="0 180 0"></a-text>
+      </a-cone><a-cone position="-10.3 7.05 13.94347" radius-bottom="10" radius-top="0" height="10" color="#CD5C5C" material="color: #0eb522" geometry="" scale="-0.48 0.84 -0.48">
+        <a-text value="Atap" align="center" position="0 20 0" color="#FFFFFF" scale="4 4 4" text=""></a-text>
+      </a-cone><a-cone position="-10.3 11.49 13.94347" radius-bottom="10" radius-top="0" height="10" color="#CD5C5C" material="color: #00610b" geometry="" scale="-0.4 0.58 -0.47">
+        <a-text value="Atap" align="center" position="0 20 0" color="#FFFFFF" scale="4 4 4" text=""></a-text>
+      </a-cone>
+
+      <!-- Pintu -->
+      <a-box position="0 4.5 7.38385" width="4" height="7" depth="0.2" color="#8B0000" material="" geometry="">
+        <a-text value="Pintu Utama" align="center" position="0 2.24972 0.22659" color="#FFFFFF" scale="4 4 4" text=""></a-text>
+      </a-box>
+
+      <!-- Jendela -->
+      
+      <a-box position="5.92 12.99 3.0827" width="3" height="3" depth="0.2" color="#808080" material="color: #ffffff" geometry="">
+        <a-text value="Jendela" align="center" position="-5.6 -2.83 4.45648" color="#000000" scale="4 4 4" text="value: Intan Dewiyanti/2113025037"></a-text>
+      </a-box><a-box position="0 13.64 7.42468" width="3" height="3" depth="0.2" color="#808080" material="color: #ffffff" geometry="">
+        <a-text value="Jendela" align="center" position="0 1.5 0" color="#000000" scale="4 4 4" text=""></a-text>
+      </a-box><a-box position="-6.00164 12.99 3.0827" width="3" height="3" depth="0.2" color="#808080" material="color: #ffffff" geometry="">
+        <a-text value="Jendela" align="center" position="0 1.5 0" color="#000000" scale="4 4 4" text=""></a-text>
+      </a-box>
+      <a-box position="-6.23 5.249 6.952" width="3" height="3" depth="0.2" color="#808080" material="color: #ffffff" geometry="" scale="1 2.38 1">
+        <a-text value="Jendela" align="center" position="0 0.56785 0.61527" color="#000000" scale="4 4 4" text=""></a-text>
+      </a-box>
+      <a-box position="6.23 5.24874 6.95163" width="3" height="3" depth="0.2" color="#808080" material="color: #ffffff" geometry="" scale="1 2.38 1">
+        <a-text value="Jendela" align="center" position="-0.10312 0.54 0.24" color="#000000" scale="4 4 4" text=""></a-text>
+      </a-box>
+
+      <!-- Tambahan Dekorasi -->
+      <a-entity position="0 11.5 0">
+        <a-cylinder position="0.05812 9.25831 -1.86628" radius="1" height="10" color="#8B4513" material="" geometry="" scale="0.5 1.97 0.5" rotation="90 0 90"></a-cylinder>
+        <a-cylinder position="18.16131 -9.02141 5.552" radius="1" height="10" color="#8B4513" material="" geometry="" scale="0.5 1 0.5"></a-cylinder>
+        <a-cylinder position="-10.34523 -8.9609 13.07122" radius="1" height="10" color="#8B4513" material="" geometry="" scale="0.5 1 0.5"></a-cylinder>
+        <a-cylinder position="18.161 -9.021 -6.13442" radius="1" height="10" color="#8B4513" material="" geometry="" scale="0.5 1 0.5"></a-cylinder>
+      </a-entity>
+
+      <!-- Segitiga di Depan -->
+      <a-triangle position="0 18.16131 7.31356" rotation="" width="15" height="15" material="color: #CD853F" geometry="" scale="7 2.85 1.44"></a-triangle><a-triangle position="-8.30755 18.87131 -1.84708" rotation="0 -90 0" width="15" height="15" material="color: #CD853F" geometry="" scale="9.43 4.05 1.44"></a-triangle><a-triangle position="8.26992 18.91131 -1.86664" rotation="0 90 0" width="15" height="15" material="color: #CD853F" geometry="" scale="9.89 4.11 1.44"></a-triangle>
+
+    </a-entity>
+
+    <!-- Kamera -->
+    <a-entity camera="" position="6.276953773850874 10.120119895248063 20.87442889584572" look-controls="" wasd-controls="fly: true" rotation="3.7815214478634256 -3.0939720937064594 0" data-aframe-inspector-original-camera=""></a-entity>
+    
+  <div class="a-loader-title" style="display: none;">Rumah Besar dan Detail</div><div class="a-loader-title" style="display: none;">Rumah Besar dan Detail</div></a-scene>
+</body>
+</html>
